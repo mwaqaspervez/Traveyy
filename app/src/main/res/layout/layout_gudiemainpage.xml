@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:paddingBottom="30dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="80dp">
+
+        <EditText
+            android:id="@+id/et_login_cust_username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+
+            android:padding="12dp"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_login_cust_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_login_cust_username"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btt_user_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/et_login_cust_password"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/web"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Login"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/btt_signup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignEnd="@id/btt_user_login"
+            android:layout_alignLeft="@id/btt_user_login"
+            android:layout_alignRight="@id/btt_user_login"
+            android:layout_alignStart="@id/btt_user_login"
+            android:layout_below="@id/btt_user_login"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/web"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="SignUp"
+            android:textColor="@android:color/white" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_login_button"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btt_signup"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null" />
+
+        <Button
+            android:id="@+id/fb_login_button"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/google_login_button"
+            android:layout_centerInParent="true"
+            android:background="@drawable/fblogin"
+            android:contentDescription="@null" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/fb_login_button"
+            android:layout_marginTop="5dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fb_login_button"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Want To Become A TraveYY Guide ?"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/text3"
+            android:layout_alignStart="@id/text3"
+            android:layout_below="@id/text3"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Visit Us At:" />
+
+            <TextView
+                android:id="@+id/tv_emailaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="Traveyy.com"
+                android:textColor="@color/web" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

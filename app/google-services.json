@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "631895040054",
+    "firebase_url": "https://traveyy-d1e4f.firebaseio.com",
+    "project_id": "traveyy-d1e4f",
+    "storage_bucket": "traveyy-d1e4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631895040054:android:afd847329d869ca1",
+        "android_client_info": {
+          "package_name": "com.example.dayshift_2.traveyy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631895040054-h00i5lgmdgirkhtres0t33bhcb4hjsc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dayshift_2.traveyy",
+            "certificate_hash": "0D32B7CE9C65413478EA03981FCC7998BD3C88A0"
+          }
+        },
+        {
+          "client_id": "631895040054-npprifdtt9pt6pb55afr4urvnol134nk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrKQebWGfNdn2rv_z45A6HQ5t5c422ZXU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631895040054-npprifdtt9pt6pb55afr4urvnol134nk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

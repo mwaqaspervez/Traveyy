@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">TraveYY</string>
+    <string name="facebook_application_id" translatable="false">1030444110365657</string>
+    <string name="selectCity">Select City</string>
+    <string name="website">http://www.traveyy.com</string>
+    <string name="lorenepsum">Admissions officers, often with undergraduates, present information and answer questions about admission to the college, financial aid, academics, extracurricular activities and residential life at Harvard. Registration is not required online or upon arrival for information sessions. Please note that university policy does not allow us to store bags, luggage or personal belongings while visitors attend the information sessions.
+Registration is optional but strongly recommended. </string>
+
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_message">Messages</string>
+    <string name="drawer_item_profile">Profile</string>
+    <string name="drawer_item_section_header">Configuration</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_help">Help</string>
+    <string name="drawer_item_contact">Contact</string>
+
+    <string-array name="uaeCities">
+        <item>Dubai</item>
+        <item>Abu Dhabi</item>
+        <item>Sharjah</item>
+        <item>Ajman</item>
+        <item>Al Ain</item>
+        <item>Fujairah</item>
+        <item>Ras Al Khamiah</item>
+    </string-array>
+
+    <string-array name="activities">
+        <item>Adventure</item>
+        <item>Night Life</item>
+        <item>Attractions</item>
+        <item>Shopping</item>
+        <item>Eating</item>
+    </string-array>
+
+    <string-array name="thailandCities">
+        <item>Bangkok</item>
+        <item>Phuket</item>
+    </string-array>
+
+    <string-array name="malaysiaCities">
+        <item>Kuala Lumpur</item>
+    </string-array>
+    <string-array name="turkeyCities">
+        <item>Istanbul</item>
+        <item>Antalya</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>United Arab Emirates</item>
+        <item>Thailand</item>
+        <item>Malaysia</item>
+        <item>Turkey</item>
+    </string-array>
+
+    <string-array name="statusMenu">
+        <item>Available</item>
+        <item>Busy</item>
+        <item>On Trip</item>
+    </string-array>
+    <string name="traveyy_email">traveyy@gmail.com</string>
+    <string name="book_now">Book Now</string>
+    <string name="education">Education:</string>
+    <string name="tours">Tours:</string>
+    <string name="about">About:</string>
+    <string name="gender">Gender:</string>
+    <string name="age">Age:</string>
+    <string name="google_maps_key">AIzaSyC0-WGioDGIbN7KZs2fUn5RZSjVp1wlGf8</string>
+
+
+</resources>

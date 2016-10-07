@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dayshift_2.traveyy">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="94d1b8bcc78911c36e19f1501fcdfbba015c8e43" />
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BaseActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddTour"
+            android:configChanges="orientation"
+            android:label="Add Tour"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.WithActionBar" />
+        <activity
+            android:name=".ViewTour"
+            android:configChanges="orientation"
+            android:label="Add Tour"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.WithActionBar" />
+        <activity
+            android:name=".SettingPref"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".MainChatPage"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.WithActionBar" />
+
+        <activity
+            android:name=".ConversationMain"
+            android:configChanges="orientation"
+            android:label="Chat"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.WithActionBar">
+
+        </activity>
+        <activity
+            android:name=".StartupActivity"
+            android:configChanges="orientation"
+            android:label="Traveey"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBars">
+
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".Guides"
+            android:configChanges="orientation"
+            android:label="Guides"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".TabBar"
+            android:configChanges="orientation"
+            android:label="Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.WithActionBar" />
+        <activity
+            android:name=".GuideLogin"
+            android:configChanges="orientation"
+            android:label="Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GuideLocation"
+            android:configChanges="orientation"
+            android:label="Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Detail2"
+            android:configChanges="orientation"
+            android:label="Detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserProfile"
+            android:configChanges="orientation"
+            android:label="Detail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.OwnActionBar" />
+        <activity
+            android:name=".GuideMainPage"
+            android:configChanges="orientation"
+            android:label="Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditUserProfile"
+            android:configChanges="orientation"
+            android:label="Edit Profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.WithActionBar"
+            android:windowSoftInputMode="stateUnchanged" />
+
+        <activity
+            android:name=".FullImageActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.WithActionBar" />
+        <activity
+            android:name=".UserSignUp"
+            android:configChanges="orientation"
+            android:label="SignUp"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.WithActionBar" />
+        <activity
+            android:name=".Bottom"
+            android:configChanges="orientation"
+            android:label="History"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.WithActionBar" />
+    </application>
+
+</manifest>

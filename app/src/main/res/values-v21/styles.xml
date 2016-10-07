@@ -1,0 +1,9 @@
+<resources>>
+
+    <style name="AppTheme.NoActionBars">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="colorPrimaryDark">@color/web</item>
+    </style>
+</resources>

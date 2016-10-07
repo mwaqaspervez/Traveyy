@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="View Profile Picture"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:id="@+id/view_profile_picture"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/web">
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Change Profile Picture"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:id="@+id/change_profile_picture"/>
+
+</LinearLayout>

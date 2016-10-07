@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView_detail_review"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundcolor"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundcolor"
+            android:gravity="center"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+
+           <com.example.dayshift_2.traveyy.NestedListView
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:id="@+id/reviewListView">
+           </com.example.dayshift_2.traveyy.NestedListView>
+
+            <!-- </LinearLayout>-->
+        </LinearLayout>
+        <Button
+            android:id="@+id/writeAReviewButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write A Review"
+            android:background="@color/web"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/white"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp" />
+        <include
+            layout="@layout/layout_writeareview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

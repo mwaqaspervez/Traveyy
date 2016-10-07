@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgroundcolor">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:background="@color/web">
+
+        <LinearLayout
+            android:id="@+id/laysad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tv_country"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_dropdown"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Country" />
+
+            <Button
+                android:id="@+id/btt_city"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_dropdown"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="City" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_acitvity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/laysad"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/layout_color"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activities:" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/asd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_acitvity"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_downarrow"
+                android:drawableRight="@drawable/ic_downarrow"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="Activity"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_searchFor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/asd"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/layout_color"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search For:" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ssd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_searchFor"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/main_guides_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="Guides" />
+
+            <CheckBox
+                android:id="@+id/main_hotels_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="Hotels" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btt_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ssd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/layout_rounded_corner"
+            android:padding="15dp"
+            android:text="Explore"
+            android:textSize="18sp" />
+    </RelativeLayout>
+</RelativeLayout>
