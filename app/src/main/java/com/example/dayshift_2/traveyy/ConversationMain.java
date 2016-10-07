@@ -41,6 +41,7 @@ public class ConversationMain extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_conversation_layout);
         Fabric.with(this, new Crashlytics());
+
         if (getSupportActionBar() != null) {
             getSupportActionBar().setHomeButtonEnabled(true);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -90,6 +91,16 @@ public class ConversationMain extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
         GetMessagesAsync async = new GetMessagesAsync();
         async.execute(guideEmail);
+    }
+
+    // **** On BackPressed implemented on Top arrow **** //
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            this.finish();
+            overridePendingTransition(R.anim.left_to_right, R.anim.right_to_left);
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     public class GetMessagesAsync extends AsyncTask<String, Void, Void> {
@@ -152,16 +163,5 @@ public class ConversationMain extends AppCompatActivity {
             progressDialog.dismiss();
             super.onPostExecute(aVoid);
         }
-    }
-
-
-    // **** On BackPressed implemented on Top arrow **** //
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if(item.getItemId() == android.R.id.home) {
-            this.finish();
-            overridePendingTransition(R.anim.left_to_right, R.anim.right_to_left);
-        }
-        return super.onOptionsItemSelected(item);
     }
 }

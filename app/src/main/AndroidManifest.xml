@@ -69,7 +69,8 @@
             android:configChanges="orientation"
             android:label="Chat"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.WithActionBar">
+            android:theme="@style/AppTheme.WithActionBar"
+            android:windowSoftInputMode="adjustPan">
 
         </activity>
         <activity
