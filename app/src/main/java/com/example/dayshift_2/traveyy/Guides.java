@@ -58,6 +58,7 @@ public class Guides extends BaseActivity {
         recyclerView.setLayoutManager(mLayoutManager);
 
         mAdapter = new RecycleViewGuideAdapter(guideList);
+
         recyclerView.setAdapter(new SlideInLeftAnimationAdapter(mAdapter));
         recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getApplicationContext(), recyclerView, new RecyclerTouchListener.ClickListener() {
             @Override

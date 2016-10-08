@@ -25,10 +25,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="140dp"
+        android:alpha="0.4"
+        android:drawableBottom="@drawable/ic_refresh"
         android:gravity="center"
         android:text="No Records Found"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
-        android:textStyle="bold"
         android:visibility="gone" />
 
 </LinearLayout>
