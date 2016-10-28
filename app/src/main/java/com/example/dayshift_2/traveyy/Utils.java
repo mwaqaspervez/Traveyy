@@ -24,7 +24,7 @@ import java.util.Map;
 
 public class Utils {
 
-    private static String websiteAddress = "http://172.16.0.49/";
+    private static String websiteAddress = "http://traveyy.000webhostapp.com/";
 
     static String getRequest(String fileName, String query) {
         int responseCode = 404;

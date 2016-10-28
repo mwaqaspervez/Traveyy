@@ -2,6 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:title="Save" android:id="@+id/save_button" app:showAsAction="always">
+    <item
+        android:id="@+id/save_button"
+        android:title="Save"
+        app:showAsAction="always">
     </item>
 </menu>

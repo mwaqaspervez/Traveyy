@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
 
 public class AddDescTourInfo extends Fragment {
-    public static AddDescTourInfo instance = null;
+    private static AddDescTourInfo instance = null;
     private LinearLayout layout;
 
     public static AddDescTourInfo newInstance() {

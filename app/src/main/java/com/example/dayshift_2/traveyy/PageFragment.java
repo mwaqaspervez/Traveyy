@@ -94,50 +94,10 @@ public class PageFragment extends Fragment implements View.OnClickListener {
                 TextView tour = (TextView) rootView.findViewById(R.id.summary_tour);
                 TextView gender = (TextView) rootView.findViewById(R.id.summary_gender);
                 TextView about = (TextView) rootView.findViewById(R.id.summary_about);
-                TextView tv_age = (TextView) rootView.findViewById(R.id.summary_tv_age);
-                TextView tv_about = (TextView) rootView.findViewById(R.id.qweqwe);
-                TextView tv_type = (TextView) rootView.findViewById(R.id.summary_tv_type);
-                TextView tv_rooms = (TextView) rootView.findViewById(R.id.summary_tv_roomsAvailable);
-                //  LinearLayout layout1 = (LinearLayout) rootView.findViewById(R.id.summary_layout_perday);
-                TextView tv_gender = (TextView) rootView.findViewById(R.id.summary_tv_per);
 
                 cardView = (CardView) rootView.findViewById(R.id.card_view);
                 scroller = (ScrollView) rootView.findViewById(R.id.layout_info);
-/*
-                if (prefs.getString("who", "Guide").equals("Hotel")) {
-                    tv_age.setText("Price: ");
-                    tv_gender.setText("Services ");
-                    tv_gender.setLayoutParams(new FrameLayout.LayoutParams(
-                            FrameLayout.LayoutParams.MATCH_PARENT,
-                            FrameLayout.LayoutParams.WRAP_CONTENT));
-                    tv_gender.setGravity(Gravity.CENTER);
-                    tv_gender.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16f);
 
-                    tv_type.setText("Type: ");
-                    tv_rooms.setText("Bookings:");
-                    tv_about.setText("Packages:");
-                    age.setText(String.valueOf(prefs.getInt("age", 0)) + " " + prefs.getString("gender", "per night"));
-                    education.setText(prefs.getString("qual", ""));
-                    tour.setText(String.valueOf(prefs.getInt("tours", 2)));
-                    tv_gender.setPadding(12, 8, 12, 8);
-                    gender.setGravity(Gravity.START);
-
-                    String services = "";
-
-                    if (prefs.getBoolean("gym", false))
-                        services += "\nGym : Gym is Available\n";
-                    if (prefs.getBoolean("car", false))
-                        services += "Cab Service : Cab Service is Available\n";
-                    if (prefs.getBoolean("dine", false))
-                        services += "Dining : Indoor Dining is Available\n";
-                    if (prefs.getBoolean("wifi", false))
-                        services += "Wifi : High-Speed Wifi is Available for free\n";
-                    if (prefs.getBoolean("paw", false))
-                        services += "Pets : Pets are Allowed (Extra Charges May Apply)";
-
-                    gender.setText(services);
-                    about.setText(prefs.getString("about", "No Information Shared."));
-                } else {*/
                 age.setText(String.valueOf(prefs.getInt("age", 0)));
                 education.setText(prefs.getString("qual", "School"));
                 tour.setText(String.valueOf(prefs.getInt("tours", 2)));

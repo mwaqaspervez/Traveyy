@@ -120,7 +120,7 @@ public class ConversationMain extends AppCompatActivity {
         @Override
         protected Void doInBackground(String... params) {
 
-            FirebaseDatabase database = FirebaseDatabase.getInstance();
+            final FirebaseDatabase database = FirebaseDatabase.getInstance();
             DatabaseReference mDatabase = database.getReference("Messages");
             Query query = mDatabase.orderByChild("queryEmail").equalTo(queryEmail);
 

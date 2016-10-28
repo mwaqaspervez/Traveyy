@@ -44,6 +44,8 @@ public class GuideMainPage extends Activity implements View.OnClickListener {
         mAuth = FirebaseAuth.getInstance();
         Fabric.with(this, new Crashlytics());
         initialize();
+
+
     }
 
     private void initialize() {
@@ -79,6 +81,8 @@ public class GuideMainPage extends Activity implements View.OnClickListener {
     public void onStart() {
         super.onStart();
         mAuth.addAuthStateListener(mAuthListener);
+
+
     }
 
     @Override
@@ -101,6 +105,7 @@ public class GuideMainPage extends Activity implements View.OnClickListener {
                 dialog.setMessage("Loading");
                 dialog.setIndeterminate(true);
                 dialog.show();
+
                 if (Utils.isNetworkAvailable(this)) {
                     if (!(email.equals("") && pass.equals(""))) {
                         mAuth.signInWithEmailAndPassword(email, pass)
@@ -190,6 +195,7 @@ public class GuideMainPage extends Activity implements View.OnClickListener {
         super.onResume();
         if (mAuth.getCurrentUser() != null)
             this.finish();
+
     }
 
 }
