@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <com.example.dayshift_2.traveyy.RoundedImageView
+        <com.mwaqaspervez.traveyy.CustomViews.RoundedImageView
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_marginLeft="12dp"

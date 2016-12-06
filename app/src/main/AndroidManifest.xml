@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dayshift_2.traveyy">
+    package="com.mwaqaspervez.traveyy">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -9,9 +9,8 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 
-
     <application
-        android:name=".ApplicationClass"
+        android:name=".Activity.ApplicationClass"
         android:allowBackup="true"
         android:fullBackupContent="false"
         android:icon="@drawable/app_logo"
@@ -30,44 +29,44 @@
             android:value="94d1b8bcc78911c36e19f1501fcdfbba015c8e43" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.MainActivity"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".BaseActivity"
+            android:name=".Activity.BaseActivity"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AddTour"
+            android:name=".Activity.AddTour"
             android:configChanges="orientation"
             android:label="Add Tour"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.WithActionBar" />
         <activity
-            android:name=".ViewTour"
+            android:name=".Activity.ViewTour"
             android:configChanges="orientation"
             android:label="Add Tour"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.WithActionBar" />
         <activity
-            android:name=".SettingPref"
+            android:name=".Activity.SettingPref"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
 
         </activity>
         <activity
-            android:name=".MainChatPage"
+            android:name=".Activity.MainChatPage"
             android:configChanges="orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.WithActionBar" />
 
         <activity
-            android:name=".ConversationMain"
+            android:name=".Activity.ConversationMain"
             android:configChanges="orientation"
             android:label="Chat"
             android:screenOrientation="portrait"
@@ -76,7 +75,7 @@
 
         </activity>
         <activity
-            android:name=".StartupActivity"
+            android:name=".Activity.StartupActivity"
             android:configChanges="orientation"
             android:label="Traveey"
             android:screenOrientation="portrait"
@@ -89,45 +88,45 @@
 
         </activity>
         <activity
-            android:name=".Guides"
+            android:name=".Activity.Guides"
             android:configChanges="orientation"
             android:label="Guides"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".TabBar"
+            android:name=".Activity.TabBar"
             android:configChanges="orientation"
             android:label="Login"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.WithActionBar" />
         <activity
-            android:name=".GuideLogin"
+            android:name=".Activity.GuideLogin"
             android:configChanges="orientation"
             android:label="Login"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".GuideLocation"
+            android:name=".Activity.GuideLocation"
             android:configChanges="orientation"
             android:label="Login"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Detail2"
+            android:name=".Activity.Detail2"
             android:configChanges="orientation"
             android:label="Detail"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UserProfile"
+            android:name=".Activity.UserProfile"
             android:configChanges="orientation"
             android:label="Detail"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.OwnActionBar" />
         <activity
-            android:name=".GuideMainPage"
+            android:name=".Activity.GuideMainPage"
             android:configChanges="orientation"
             android:label="Login"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".EditUserProfile"
+            android:name=".Activity.EditUserProfile"
             android:configChanges="orientation"
             android:label="Edit Profile"
             android:screenOrientation="portrait"
@@ -135,18 +134,18 @@
             android:windowSoftInputMode="stateUnchanged" />
 
         <activity
-            android:name=".FullImageActivity"
+            android:name=".Activity.FullImageActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.WithActionBar" />
         <activity
-            android:name=".UserSignUp"
+            android:name=".Activity.UserSignUp"
             android:configChanges="orientation"
             android:label="SignUp"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.WithActionBar" />
         <activity
-            android:name=".Bottom"
+            android:name=".Activity.Bottom"
             android:configChanges="orientation"
             android:label="History"
             android:screenOrientation="portrait"

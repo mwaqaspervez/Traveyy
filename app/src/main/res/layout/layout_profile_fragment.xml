@@ -12,7 +12,7 @@
         app:cardCornerRadius="2dp"
         app:cardElevation="2dp">
 
-        <com.example.dayshift_2.traveyy.RoundedImageView
+        <com.mwaqaspervez.traveyy.CustomViews.RoundedImageView
             android:id="@+id/displayimage_profile_fragment"
             android:layout_width="120dp"
             android:layout_height="120dp"
@@ -117,7 +117,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:text="Add Tour" />
+            android:text="View Tours" />
 
     </LinearLayout>
 

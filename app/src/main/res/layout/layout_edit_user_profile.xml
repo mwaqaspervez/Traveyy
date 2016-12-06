@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.example.dayshift_2.traveyy.RoundedImageView
+                <com.mwaqaspervez.traveyy.CustomViews.RoundedImageView
                     android:id="@+id/roundedImageview_edit_user_profile"
                     android:layout_width="80dp"
                     android:layout_height="80dp"

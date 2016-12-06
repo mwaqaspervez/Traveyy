@@ -68,7 +68,7 @@
             android:background="@color/web"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:text="SignUp"
+            android:text="SignUp By Email"
             android:textColor="@android:color/white" />
 
         <com.google.android.gms.common.SignInButton
@@ -79,19 +79,11 @@
             android:layout_centerInParent="true"
             android:contentDescription="@null" />
 
-        <Button
-            android:id="@+id/fb_login_button"
-            android:layout_width="240dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/google_login_button"
-            android:layout_centerInParent="true"
-            android:background="@drawable/fblogin"
-            android:contentDescription="@null" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_below="@id/fb_login_button"
+            android:layout_below="@id/google_login_button"
             android:layout_marginTop="5dp"
             android:background="@color/black" />
 
@@ -99,7 +91,7 @@
             android:id="@+id/text3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/fb_login_button"
+            android:layout_below="@id/google_login_button"
             android:layout_centerInParent="true"
             android:layout_marginTop="10dp"
             android:gravity="center"
